@@ -20,16 +20,20 @@ trueAge.innerHTML = 'Age: '+63;
 
 var jobDisc = document.createElement('div');
 jobDisc.id = 'job';
-jobDisc.innerHTML = 'Clown and Restauranteur.';
+jobDisc.innerHTML = 'Job Discription: Clown and Restauranteur.';
 data.appendChild(jobDisc);
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 var like2Do = document.createElement('div');
 like2Do.id = 'hobbies';
-like2Do.innerHTML = 'Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.';
+like2Do.innerHTML = 'Hobbies: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.';
 data.appendChild(like2Do);
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
+var whereAt = document.createElement('div');
+whereAt.id = 'location';
+whereAt.innerHTML = 'Location: Honolulu, HI';
+data.appendChild(whereAt);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
