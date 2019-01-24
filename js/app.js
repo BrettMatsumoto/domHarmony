@@ -36,6 +36,10 @@ whereAt.innerHTML = 'Location: Honolulu, HI';
 data.appendChild(whereAt);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
+var desires = document.createElement('div');
+desires.id = 'wants';
+desires.innerHTML = 'Looking for a Mrs. Mcdonald.';
+data.appendChild(desires);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
