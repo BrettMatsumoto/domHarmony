@@ -48,6 +48,8 @@ profile2.innerHTML = "Hey sexy, is your body from McDonalds cuz I'm lovin' it. Y
 profile.appendChild(profile2);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
+var fName = document.getElementsByClassName('firstName');
+fName[0].innerHTML = 'Wendy';
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
