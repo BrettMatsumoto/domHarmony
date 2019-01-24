@@ -13,7 +13,8 @@ var trueName = document.getElementById('fullname');
 trueName.innerHTML = 'Ronald McDonald';
 
 //4. In the div id data section, target the div element with the id of 'age' and change Age to 63 Years Old.
-
+var trueAge = document.getElementById('age');
+trueAge.innerHTML = 'Age: '+63;
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
 
