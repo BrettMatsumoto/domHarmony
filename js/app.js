@@ -42,6 +42,10 @@ desires.innerHTML = 'Looking for a Mrs. Mcdonald.';
 data.appendChild(desires);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
+var profile2 = document.createElement('p');
+profile2.id = 'pro2';
+profile2.innerHTML = "Hey sexy, is your body from McDonalds cuz I'm lovin' it. You're lucky I haven't eaten yet, you can be my Happy Meal."
+profile.appendChild(profile2);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
